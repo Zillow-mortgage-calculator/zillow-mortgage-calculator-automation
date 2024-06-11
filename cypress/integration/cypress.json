@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://www.zillow.com",
+  "viewportWidth": 1280,
+  "viewportHeight": 720,
+  "defaultCommandTimeout": 5000,
+  "screenshotsFolder": "cypress/screenshots",
+  "videosFolder": "cypress/videos",
+  "testFiles": "**/*.spec.cy.js"
+}
