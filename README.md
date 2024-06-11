@@ -5,6 +5,9 @@ Cypress automation suite for zillow mortgage calculator
 
 ## Clone the repository
 git clone https://github.com/your_username/zillow-mortgage-calculator-automation.git
+## Use VS Code or terminal to open repository
+> Open Visual Studio code
+> tap open and navigate tpo the cloned repository 
 
 ## Navigate to the cloned repository
 cd zillow-mortgage-calculator-automation
@@ -14,6 +17,9 @@ cd zillow-mortgage-calculator-automation
 
 ## Open cypress
 >npx cypress open
+## Run cypress test
+>npx cypress run
+
 
 ## Project Structure
 The project structure is organized as follows:
