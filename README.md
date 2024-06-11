@@ -28,24 +28,31 @@ git clone https://github.com/your_username/zillow-mortgage-calculator-automation
 ## Folder Structure
 cypress/
 fixtures/: Fixture files for mock data.
-integration/cypress: Test files (.spec.js).
+integration/cypress/e2e: Test files (.spec.js).
 plugins/: Cypress plugins.
 support/: Custom commands and other support files.
-cypress.json: Cypress configuration file.
+cypress.json: Cypress configuration file, including reporting configuration updates.
 
 **Scenario 1**  calculate_mortgage.spec.js: Contains test cases related to  simple calculating mortgage payments.
 
 **Scenario 2**  advanced.mortgage.payment.spec.js Contains test cases related to  Advanced calculating mortgage payments.
 
-
-## Reporting
-
-> Mochawesome reporting plug installed and added to the config file.
 >
-> After the test run is complete, you can find the generated reports in the specified directory (cypress/reports)
+>
 
 **support/:** Contains custom commands and utilities used across the tests.
 
 **cypress.json:** Cypress configuration file.
 
 **package.json:** Contains project dependencies and scripts.
+
+
+## Reporting
+
+> Mochawesome reporting plug installed and added to the config file.
+'npm install --save-dev cypress-multi-reporters mochawesome mochawesome-merge mochawesome-report-generator'
+
+
+
+1. After the test run is complete, you can find the generated reports in the specified directory (cypress/reports)
+
