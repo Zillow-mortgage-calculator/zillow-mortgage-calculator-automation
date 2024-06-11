@@ -5,5 +5,16 @@
   "defaultCommandTimeout": 5000,
   "screenshotsFolder": "cypress/screenshots",
   "videosFolder": "cypress/videos",
-  "testFiles": "**/*.spec.cy.js"
+  "testFiles": "**/*.spec.cy.js",
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome,json",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/reports/mocha",
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
+  }
 }
+
